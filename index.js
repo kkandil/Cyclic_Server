@@ -37,8 +37,7 @@ app.get('/', (req, res) => {
 	res.send("Socket IO Start on port: " + PORT);
 });
 
-server.listen(PORT, function(){
-	res.send("Server is now running...");
+server.listen(PORT, function(){ 
 	console.log("Server is now running...");
 });
 
